@@ -1,8 +1,25 @@
 aid: dorado-software-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dorado-software-inc.png
 name: Dorado Software Inc
-description: Dorado Software Inc is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Dorado Software, Inc. is a Roseville, California infrastructure management
+  software company whose Cruz and Redcell product families deliver resource management,
+  orchestration, monitoring, and automation for data centers, AI infrastructure, enterprise
+  campuses, and service-provider networks. The Cruz suite spans DCIM, network performance
+  management, fabric and compute orchestration, compliance, and agentic-AI operations,
+  discovering and controlling multi-vendor devices over SNMP, CLI, NETCONF, and REST/HTTPS.
+  Dorado Software is backed by Insight Partners. This profile is maintained in the API
+  Evangelist network; no public developer API, portal, or SDK surface was found.'
 url: https://raw.githubusercontent.com/api-evangelist/dorado-software-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Infrastructure Management
+- Network Management
+- DCIM
+- Orchestration
+- Monitoring
+- Data Center
+- AIOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dorado-software-inc-domain-security.yml
 - type: Website
   url: http://www.doradosoftware.com/
+- type: Support
+  url: https://www.doradosoftware.com/support
+- type: PrivacyPolicy
+  url: https://www.doradosoftware.com/website/privacy
+- type: Blog
+  url: https://www.doradosoftware.com/about/news
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
