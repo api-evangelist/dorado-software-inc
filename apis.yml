@@ -37,6 +37,15 @@ tags:
 - DCIM
 - Orchestration
 - Monitoring
+- Data-Center
+- AIOps
+tags_raw:
+- Company
+- Infrastructure Management
+- Network Management
+- DCIM
+- Orchestration
+- Monitoring
 - Data Center
 - AIOps
 apis: []
